@@ -22,7 +22,7 @@ namespace _03.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-
+    //
     //Validacion del Bearer
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "admin")]
     //[EnableCors("PermitirApiRequest")]
